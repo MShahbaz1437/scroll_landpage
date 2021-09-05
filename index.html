@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scroll Page Animation</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <section>
+            <!-- <div class="side" id="side1">
+                <img src="image/home11.jpg" alt="" loading="lazy">
+            </div> -->
+            <div class="side" id="side1">
+                <img src="image/home11.jpg" alt="" loading="lazy">
+            </div>
+             <div class="side" id="side2">
+                <img src="image/home11.jpg" alt="" loading="lazy">
+            </div>
+          
+        </section>
+          <div class="content">
+                <h2>What is Lorem Ipsum?</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+
+            <script type="text/javascript">
+                let image1 = document.getElementById('side1');
+                let image2 = document.getElementById('side2');
+                window.addEventListener('scroll', function(){
+                    side1.style.left = -window.pageYOffset+'px';
+                    side2.style.left = window.pageYOffset+'px';
+                })
+            </script>
+    </body>
+
+</html>
